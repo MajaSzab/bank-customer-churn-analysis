@@ -1,0 +1,12 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "data/bank_churn.db",
+            "name": "adata_bank"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
